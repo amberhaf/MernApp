@@ -9,9 +9,9 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
             <div class="container">
 
-        <img img class="logo3" src="../logo.svg" alt="" /><a class="brand-logo navbar-brand js-scroll-trigger" href="#page-top"><h2 class="navName">MU Women In Stem</h2></a>
+        <img img class="logo3" src="../logo.svg" alt="" /><a class="brand-logo navbar-brand js-scroll-trigger" href="#page-top"><p class="navName brand-logo">MU Women In Stem</p></a>
         
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
