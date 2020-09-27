@@ -19,7 +19,7 @@ router.get('/', (req, res) => {
 
 router.post('/match', (req, res) => {
     BlogPost.find({
-         $or: [{ $and: [{ spring: req.body.spring}, {spring: true}]}, { $and: [{summer: req.body.summer}, {summer: true}]}, { $and: [{autumn: req.body.autumn}, {autumn: true}]}, { $and: [{activity: req.body.activity}, {activity: true}]},{ $and: [{entertainment: req.body.entertainment}, {autumn: true}]},{ $and: [{winter: req.body.winter}, {winter: true}]}]
+         $or: [{ $and: [{ biology: req.body.biology}, {biology: true}]}, { $and: [{chemistry: req.body.chemistry}, {chemistry: true}]}, { $and: [{physics: req.body.physics}, {physics: true}]}, { $and: [{computerScience: req.body.computerScience}, {computerScience: true}]},{ $and: [{engineering: req.body.engineering}, {engineering: true}]},{ $and: [{maths: req.body.maths}, {maths: true}]}]
         })
         .then((data) => {
             console.log('Data: ', data);
