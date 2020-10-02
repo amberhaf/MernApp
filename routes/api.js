@@ -16,10 +16,9 @@ router.get('/', (req, res) => {
         });
 });
 
-
 router.post('/match', (req, res) => {
     BlogPost.find({
-         $or: [{ $and: [{ biology: req.body.biology}, {biology: true}]}, { $and: [{chemistry: req.body.chemistry}, {chemistry: true}]}, { $and: [{physics: req.body.physics}, {physics: true}]}, { $and: [{computerScience: req.body.computerScience}, {computerScience: true}]},{ $and: [{engineering: req.body.engineering}, {engineering: true}]},{ $and: [{maths: req.body.maths}, {maths: true}]}]
+         $or: [{ $and: [{ biology: req.body.biology}, {biology: true}]}, { $and: [{chemistry: req.body.chemistry}, {chemistry: true}]}, { $and: [{physics: req.body.physics}, {physics: true}]}, { $and: [{pyschology: req.body.pyschology}, {pyschology: true}]}, { $and: [{computerScience: req.body.computerScience}, {computerScience: true}]},{ $and: [{engineering: req.body.engineering}, {engineering: true}]},{ $and: [{maths: req.body.maths}, {maths: true}]}]
         })
         .then((data) => {
             console.log('Data: ', data);

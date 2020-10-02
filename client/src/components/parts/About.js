@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-<section className="page-section bg-primary text-white mb-0" id="about">
+<section className="page-section bg-primary text-white mb-0 section" id="about">
+
+            
+            
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="divider-custom divider-light">

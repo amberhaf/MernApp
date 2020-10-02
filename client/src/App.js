@@ -5,27 +5,21 @@ import Results from "./components/screens/Results";
 import NotFound from "./components/screens/NotFound";
 import Events from "./components/screens/Events";
 import Blogs from "./components/screens/Blogs";
+import Steps from "./components/screens/Steps";
+import News from "./components/screens/News";
 
 function App() {
   return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/events">
-            <Events />
-          </Route>
-          <Route path="/result">
-            <Results />
-          </Route>
-          <Route path="/blogs">
-            <Blogs />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
+        <Route component={Home} path="/" exact={true} />
+        <Route component={Events} path="/events" />
+        <Route component={Results} path="/result"/>
+        <Route component={Blogs} path="/blogs" />
+        <Route component={Steps} path="/steps" />
+        <Route component={News} path="/news"/>
+        <Route component={NotFound} path="*" />
+          </Switch>
       </BrowserRouter>
   );
 }

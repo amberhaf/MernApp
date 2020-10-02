@@ -1,6 +1,7 @@
 import React from "react";
 import axios from 'axios';
 import { Link } from "react-router-dom";
+import { BrowserRouter, Route } from 'react-router-dom';
 
 class Quiz extends React.Component {
 
@@ -11,7 +12,7 @@ class Quiz extends React.Component {
     chemistry: false,
     physics: false,
     maths: false,    
-
+    pyschology: false,
     computerScience: false,
     engineering: false,
     posts: []
@@ -43,6 +44,11 @@ class Quiz extends React.Component {
       });
   }
 
+  getSteps = () => {
+      const desc = this.post.description
+      console.log(desc)
+  }
+
   submit = (event) => {
     event.preventDefault();
 
@@ -53,7 +59,7 @@ class Quiz extends React.Component {
       chemistry: this.state.chemistry,
       physics: this.state.physics,
       maths: this.state.maths,
-
+      pyschology: this.state.pyschology,
       computerScience: this.state.computerScience,
       engineering: this.state.engineering,
     };
@@ -83,7 +89,7 @@ class Quiz extends React.Component {
       chemistry: false,
       physics: false,
       maths: false,    
-  
+      pyschology: false,
       computerScience: false,
       engineering: false,
     });
@@ -92,12 +98,13 @@ class Quiz extends React.Component {
   displayBlogPost = (posts) => {
 
     if (!posts.length) return null;
-
+    localStorage.setItem("mytime", "helloWorld");
 
     return posts.map((post, index) => (
       <div key={index} className="blog-post__display">
         <h3>{post.title}</h3>
         <p>{post.description}</p>
+        <button><Link to={{ pathname: "/steps", state:post }}>Read</Link></button>
       </div>
     ));
   };
@@ -159,6 +166,16 @@ class Quiz extends React.Component {
           </div>
           <div className="form-input checkbox">
           <label>
+          Pyschology:
+            <input
+              type="checkbox"
+              name="pyschology"
+              checked={this.state.pyschology}
+              onChange={this.handleChange.bind(this)} />
+          </label>
+          </div>
+          <div className="form-input checkbox">
+          <label>
           Computer Science:
             <input
               type="checkbox"
@@ -185,7 +202,6 @@ class Quiz extends React.Component {
         <div id="results" className="blog- text-center mt-4">
           {this.displayBlogPost(this.state.posts)}
         </div>
-
       </section>
     );
   }

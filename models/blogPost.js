@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 // Schema
 const Schema = mongoose.Schema;
 const BlogPostSchema = new Schema({
@@ -12,6 +11,8 @@ const BlogPostSchema = new Schema({
     maths: Boolean,
     computerScience: Boolean,
     engineering: Boolean,
+    pyschology: Boolean,
+    
 
     date: {
         type: String,

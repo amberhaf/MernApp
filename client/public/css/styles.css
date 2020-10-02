@@ -10273,10 +10273,6 @@ form .row:first-child .floating-label-form-group {
   font-size:2rem;
 }
 
-#about, #submit, #quiz
-{
-  padding-top: 18%;
-}
 
 .checkbox{
   display: inline-block;
@@ -10291,7 +10287,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 #filter{
-  background-color: #57baff!important;
+  background-color: #56b8ff!important;
 }
 
 
@@ -10301,8 +10297,10 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
+/*
 @media (max-width: 767px) { 
   .page-section-heading{
       visibility: hidden;
   }
 }
+*/
