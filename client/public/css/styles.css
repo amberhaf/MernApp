@@ -12,8 +12,9 @@
  */
 
  @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
-
-:root {
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Roboto+Condensed&display=swap');
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -6104,7 +6105,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #57baff !important;
 }
 
 .bg-secondary {
@@ -10003,6 +10004,7 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+  padding-top: 2rem;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10264,8 +10266,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 /*My Styles*/
+
+/*
 .brand-logo,h2{
-  font-family: 'Grand Hotel', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+*/
+.brand-logo,h2{
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .brand-logo
@@ -10293,7 +10301,7 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 700px) { 
   .brand-logo{
-      font-size: 1.76rem;
+      font-size: 1.75rem;
   }
   .logo3{
     width: 3.7rem;
@@ -10311,4 +10319,36 @@ form .row:first-child .floating-label-form-group {
 .navbar-toggler{
   width: 2.8rem;
 }
+
+.nav-item {
+  padding: 0.5rem;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+}
+
+.navbar-toggler{
+  width: 2.6rem;
+}
+
+.nav-item {
+  padding: 0.5rem;
+}
+
+
+.title {
+  margin:0;
+  padding:0;
+  display: inline-block;
+}
+
 
