@@ -6,7 +6,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg bg-secondary fixed-top" style={{backgroundColor: "#071740", position: "sticky"}} id="mainNav">
             <div className="container">
-        <div className="title">    <img class="logo3" src="../logo.svg" alt="" /><a class="brand-logo navbar-brand js-scroll-trigger" href="#page-top"><a class="navName brand-logo">MU Women In Stem</a></a>
+        <div className="title">    <img class="logo3" src="../logo.svg" alt="" /><a class="brand-logo navbar-brand js-scroll-trigger" href="#page-top"><a class="navName brand-logo">MU WomenInStem</a></a>
     <button className="navbar-toggler navbar-toggler-right bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i className="fas fa-bars"></i></button></div>
                 <div className="collapse navbar-collapse navbar-expand" id="navbarResponsive">
