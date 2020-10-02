@@ -10304,3 +10304,11 @@ form .row:first-child .floating-label-form-group {
   }
 }
 */
+
+.navbar-toggler{
+  width: 2.8rem;
+}
+
+.fa-bars{
+  width: 2rem;
+}
