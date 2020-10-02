@@ -10295,6 +10295,9 @@ form .row:first-child .floating-label-form-group {
   .brand-logo{
       font-size: 1.76rem;
   }
+  .logo3{
+    width: 3.7rem;
+  }
 }
 
 /*
@@ -10309,6 +10312,3 @@ form .row:first-child .floating-label-form-group {
   width: 2.8rem;
 }
 
-.fa-bars{
-  width: 2rem;
-}
