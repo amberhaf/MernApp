@@ -10301,12 +10301,12 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 700px) { 
   .brand-logo{
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       margin:0;
       padding:0;
   }
   .logo3{
-    width: 3.6rem;
+    width: 3.5rem;
     margin:0;
     padding:0;
   }
@@ -10342,8 +10342,6 @@ form .row:first-child .floating-label-form-group {
 
 .navbar-toggler{
   width: 2.5rem;
-  margin:0;
-  padding:0;
 }
 
 .nav-item {
