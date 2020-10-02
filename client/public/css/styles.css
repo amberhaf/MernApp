@@ -10303,6 +10303,7 @@ form .row:first-child .floating-label-form-group {
   .brand-logo{
       font-size: 1.5rem;
       margin:0;
+      margin-right:0.2rem;
       padding:0;
   }
   .logo3{
@@ -10353,6 +10354,7 @@ form .row:first-child .floating-label-form-group {
   margin:0;
   padding:0;
   display: inline-block;
+  text-align: center;
 }
 
 
