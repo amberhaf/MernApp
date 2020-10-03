@@ -10287,7 +10287,8 @@ form .row:first-child .floating-label-form-group {
 
 .brand-logo
 {
-  font-size:2.5rem;
+  font-size:2.2rem;
+  line-height: 5rem;
 }
 
 .navbar
@@ -10391,9 +10392,10 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 700px) { 
   .brand-logo{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin:0;
-      margin:0.2rem;
+      margin:0.1rem;
+      line-height: 3rem;
   }
   .logo3{
     width: 3rem;
@@ -10402,13 +10404,13 @@ form .row:first-child .floating-label-form-group {
   }
 
   .nav-item{
-    font-size:1.3rem;
+    font-size:1.2rem;
     color: #5493B2!important;
   }
   .navbar-brand
-{
-  padding: 0;
-  margin: 0;
-  color: #5493B2!important;
-}
+  {
+    padding: 0;
+    margin: 0;
+    color: #5493B2!important;
+  }
 }
