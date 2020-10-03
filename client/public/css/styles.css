@@ -10324,6 +10324,9 @@ form .row:first-child .floating-label-form-group {
     margin:0;
     padding:0;
   }
+  .nav-item{
+    font-size:1.3rem;
+  }
 }
 
 /*
@@ -10394,3 +10397,4 @@ form .row:first-child .floating-label-form-group {
 .btn-social{
   background-color: #EE72A5;
 }
+
