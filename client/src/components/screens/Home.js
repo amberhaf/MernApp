@@ -2,12 +2,18 @@ import React from "react";
 import Footer from "../parts/Footer";
 import Navbar from "../parts/Navbar";
 import About from "../parts/About";
+import Join from "../parts/Join";
+import JoinSociety from "../parts/JoinSociety";
+import Header from "../parts/Header";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      <Header />
       <About />
+      <Join />
+      <JoinSociety />
       <Footer />
     </>
   );

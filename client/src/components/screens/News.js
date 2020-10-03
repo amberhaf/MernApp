@@ -7,7 +7,7 @@ const News = () => {
   return (
     <>
       <Navbar />
-      <section className="page-section bg-primary text-white mb-0" id="steps">
+      <section className="page-section bg-primary mb-0" id="steps">
       <div>
         <h3 className="text-center mt-4">No content so far</h3>
       </div>

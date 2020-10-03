@@ -10,7 +10,7 @@ const Steps = props => {
   return (
     <div>
       <Navbar/>
-    <section className="page-section bg-primary text-white mb-0" id="steps">
+    <section className="page-section bg-primary mb-0" id="steps">
       <div className="form-details text-center mt-4">
         <div>
           <strong>Title:</strong> {title}
