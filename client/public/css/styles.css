@@ -10371,7 +10371,7 @@ form .row:first-child .floating-label-form-group {
   background-color: #DDE9F0;
   color: #5493B2;
   text-align: center;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem;
 }
 
 
@@ -10412,5 +10412,61 @@ form .row:first-child .floating-label-form-group {
     padding: 0;
     margin: 0;
     color: #5493B2!important;
+  }
+}
+
+/*new css*/
+
+.intro {
+  position: relative;
+}
+
+.intro .intro-img {
+  width: 50%;
+}
+.intro .intro-text {
+  width: 70%;
+  margin-top: 3rem;
+  position: absolute;
+  padding: 5rem;
+}
+
+.rightImage{
+  float: right;
+}
+
+.leftImage{
+  float: left;
+}
+
+.rightText{
+  right: 0;
+}
+
+.leftText{
+  left: 0;
+}
+
+.about{
+  background-color: #DDE9F0;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+  padding: 2rem;
+}
+
+@media (max-width: 700px) { 
+ 
+  .intro .intro-text {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    padding: 1rem !important;
+    position: absolute;
+  }
+  .intro .intro-img {
+    width: 70%;
   }
 }
