@@ -11,7 +11,7 @@ const About = () => {
           <h3 class="section-heading mb-4">
             <span>About</span>
           </h3>
-          <p class="mb-3">Maynooth University Women In STEM Society focuses on celebrating and empowering Women in Science, Technology, Engineering and Maths (STEM) related subjects in Maynooth University.
+          <p class="mb-3 changeFont">Maynooth University Women In STEM Society focuses on celebrating and empowering Women in Science, Technology, Engineering and Maths (STEM) related subjects in Maynooth University.
           </p>
         </div>
       </div>

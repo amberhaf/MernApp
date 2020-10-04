@@ -3,15 +3,35 @@ import { Link } from "react-router-dom";
 
 const JoinSociety = () => {
   return (
-<section className="page-section bg-primary mb-0 section">
-     
-            <div className="container">
-                <div className="text-center mt-4">
-                    <p>What we do. Why should you join. How to join. Opportunities to get involved. Types of events you can attend.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus ipsum tellus, a viverra elit accumsan vitae. Nulla sapien elit, venenatis vehicula quam sit amet, dictum tempus lorem. </p>
+  <section className="page-section bg-primary mb-0 section" id="portfolio">
+    <div className="container">
+        <div className="row text-center">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div className="portfolio-item">
+                    <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <img className="img-fluid" src="../friends.png" alt="" />
+                    </a>
+                    <div>
+                        <h4>JOIN THE GANG</h4>
+                        <p  className="description">Our society is open to all genders and identities who would like to encourage equality, diversity and inclusion in Maynooth University. We strive to inspire a wider and more diverse group of individuals to engage in and pursue STEM activities.</p>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div className="portfolio-item">
+                    <a className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <img className="img-fluid" src="../friends2.png" alt="" />
+                    </a>
+                    <div>
+                        <h4>MEET THE SOCIETY</h4>
+                        <p className="description">We are a committee of students passionate about STEM, women's empowerment and diversity. Each one of us is excited to bring many events and opportunitites to you this year. We cannot wait to meet you all and expand our circle of inclusion and representation even more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
   );
 };
 

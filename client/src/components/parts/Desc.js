@@ -11,7 +11,7 @@ const Desc = () => {
           <h3 class="section-heading mb-4">
             <span>What we do</span>
           </h3>
-          <p class="mb-3">We host and promote many events such as panel discussions from companies, chill nights, mentorship programs, career talks and many more opportunities for networking.
+          <p class="mb-3 changeFont">We host and promote many events such as panel discussions from companies, chill nights, mentorship programs, career talks and many more opportunities for networking.
           </p>
         </div>
       </div>

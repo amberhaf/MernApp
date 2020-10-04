@@ -10,7 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Roboto+Condensed&display=swap');
@@ -386,6 +386,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.5rem;
+  color: #5493B2;
 }
 
 h5, .h5 {
@@ -10189,6 +10190,7 @@ h3 {
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
+  max-width: 25rem;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
@@ -10284,6 +10286,9 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Roboto Condensed', sans-serif;
 }
 */
+p,h4{
+  font-family: 'Abhaya Libre', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 .brand-logo
 {
@@ -10390,7 +10395,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 
-@media (max-width: 700px) { 
+@media (max-width: 800px) { 
   .brand-logo{
       font-size: 1.4rem;
       margin:0;
@@ -10457,6 +10462,7 @@ form .row:first-child .floating-label-form-group {
   padding: 2rem;
 }
 
+
 @media (max-width: 700px) { 
  
   .intro .intro-text {
@@ -10469,4 +10475,8 @@ form .row:first-child .floating-label-form-group {
   .intro .intro-img {
     width: 70%;
   }
+}
+
+.changeFont{
+  font-family: 'Montserrat', sans-serif;
 }
