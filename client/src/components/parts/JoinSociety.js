@@ -9,7 +9,7 @@ const JoinSociety = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="portfolio-item">
                     <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <img className="img-fluid" src="../friends.png" alt="" />
+                        <img src="../images/friends.png" alt="" />
                     </a>
                     <div>
                         <h4>JOIN THE GANG</h4>
@@ -20,7 +20,7 @@ const JoinSociety = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="portfolio-item">
                     <a className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <img className="img-fluid" src="../friends2.png" alt="" />
+                        <img src="../images/friends.png" alt="" />
                     </a>
                     <div>
                         <h4>MEET THE SOCIETY</h4>
